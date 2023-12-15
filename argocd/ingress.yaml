@@ -66,7 +66,7 @@ spec:
     namespace: ingress-nginx
   syncPolicy:
     automated:
-      selfHeal: true
+      selfHeal: felse
       prune: true
     syncOptions:
       - CreateNamespace=true
